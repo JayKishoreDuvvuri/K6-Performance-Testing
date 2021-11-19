@@ -3,9 +3,9 @@
 Installation
 Make sure you do a "brew install k6" on mac or "choco intall k6" on windows for installing k6
 
-# Running the test
+### Running the test
 
-k6 run TC01_smokTest.js on the terminal
+"k6 run TC01_smokTest.js" on the terminal
 
 The above command will run the test with with 100 virtual users
 
