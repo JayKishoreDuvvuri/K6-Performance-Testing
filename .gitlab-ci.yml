@@ -46,7 +46,7 @@ k6-spike-test:
    - gitlab-org-docker
 
 
-k6-test-recorded-load-test:
+k6-soak-test:
  stage: test
  image: 
   name: loadimpact/k6
