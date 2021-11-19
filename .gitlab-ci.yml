@@ -1,0 +1,58 @@
+k6-smoke-test:
+ stage: test
+ image: 
+   name: loadimpact/k6
+   entrypoint: [""]
+ script:
+   - k6 run TC01_smokTest.js
+ cache: {}
+ tags: 
+   - gitlab-org-docker
+
+
+k6-load-test:
+ stage: test
+ image: 
+   name: loadimpact/k6
+   entrypoint: [""]
+ script:
+   - k6 run TC02_loadTest.js
+ cache: {}
+ tags: 
+   - gitlab-org-docker
+
+
+k6-stress-test:
+ stage: test
+ image: 
+   name: loadimpact/k6
+   entrypoint: [""]
+ script:
+   - k6 run TC03_stressTest.js
+ cache: {}
+ tags: 
+   - gitlab-org-docker
+
+
+k6-spike-test:
+ stage: test
+ image: 
+   name: loadimpact/k6
+   entrypoint: [""]
+ script:
+   - k6 run TC04_spikeTest.js
+ cache: {}
+ tags: 
+   - gitlab-org-docker
+
+
+k6-test-recorded-load-test:
+ stage: test
+ image: 
+  name: loadimpact/k6
+  entrypoint: [""]
+ script:
+   - k6 run TC05_soakTest.js
+ cache: {}
+ tags: 
+   - gitlab-org-docker
