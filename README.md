@@ -1,7 +1,7 @@
 # k6-performance-testing
 
-Installation
-Make sure you do a "brew install k6" on mac or "choco intall k6" on windows for installing k6
+### Installation
+Make sure you run the command "brew install k6" on mac or "choco intall k6" on windows for installing k6
 
 ### Run application
 Clone the repository
