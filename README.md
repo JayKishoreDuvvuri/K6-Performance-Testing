@@ -3,6 +3,12 @@
 Installation
 Make sure you do a "brew install k6" on mac or "choco intall k6" on windows for installing k6
 
+### Run application
+Clone the repository
+```bash
+git clone https://github.com/JayKishoreDuvvuri/K6-Performance-Testing.git
+```
+
 ### Running the test
 
 "k6 run TC01_smokTest.js" on the terminal
